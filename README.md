@@ -6,12 +6,14 @@
 2.  In the URL bar type "about:support"
 
     - Scroll to "Project Folder" or "Project Directory" (You can also look it up by using "ctrl + f") and click the "Open Folder" button
-    - In the folder that opened create a "chrome" folder if there isn't one already - Copy "chrome" folder from this repo and restart Firerfox. Or in "chrome" folder make a "userChrome.css" file.
+    - In the folder that opened copy the "chrome" folder from this repo in there and restart Firefox or create a "chrome" folder if there isn't one already
+
+      - In "chrome" folder make a "userChrome.css" file.
       - In "userChrome" file type:
 
-    ```
-    /* hides the native tabs */
-    #TabsToolbar { visibility: collapse; }
-    /* leaves space for the window buttons */
-    #nav-bar { margin-top: -8px; margin-right: 74px; margin-bottom: -4px; }
-    ```
+        ```
+        /* hides the native tabs */
+        #TabsToolbar { visibility: collapse; }
+        /* leaves space for the window buttons */
+        #nav-bar { margin-top: -8px; margin-right: 74px; margin-bottom: -4px; }
+        ```
